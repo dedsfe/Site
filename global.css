@@ -1,0 +1,35 @@
+@import url(navbar.css);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --brand-color: white;
+  --second-color: black;
+  --third-color: rgb(199, 199, 199);
+  --transparency-color: rgba(255, 255, 255, 0.336);
+  --background-color:rgb(17, 17, 17);
+  --transparent-color: rgba(255, 255, 255, 0);
+
+  --font-family: "Inter", sans-serif;
+  --text-lg: bold 32px/125% var(--font-family);
+  --text-md: normal 20px/175% var(--font-family);
+  --text-sm: normal 15px/175% var(--font-family);
+
+}
+
+body{
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  font: var(--text-lg);
+  background-color: rgb(27, 27, 27);
+  color: var(--brand-color);
+  background-color: var(--background-color);  
+}
+
+
+
+

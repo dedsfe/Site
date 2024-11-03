@@ -1,0 +1,75 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  font: var(--text-sm);
+  max-width: 1200px;
+  width: 100%;
+  margin: 15px;
+}
+
+a{
+  color: var(--third-color);
+  text-decoration: none;
+}
+
+a{
+  color: var(--third-color);
+}
+
+a:hover{
+  transition-duration: 0.4s;
+  color: var(--transparency-color);
+}
+
+.content{
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  gap: 15px;
+}
+
+.logo{
+  color: var(--brand-color);
+  font-weight: 800;
+}
+.logo:hover{
+  transition-duration: 0.4s;
+  color: var(--transparency-color);
+  cursor: pointer;
+}
+
+.button1{
+  background-color: var(--transparent-color);
+  color: var(--brand-color);
+  border-radius: 10px;
+  border: 2px solid var(--brand-color);
+
+  padding: 10px;
+}
+
+.button2{
+  background-color: var(--brand-color);
+  color: var(--second-color);
+  border-radius: 10px;
+  border: 0px;
+
+  
+  padding: 12px;
+}
+
+.button1:hover{
+  cursor: pointer;
+  background-color: var(--brand-color);
+  color: var(--second-color);
+
+}
+
+.button2:hover{
+  cursor: pointer;
+  background-color: var(--third-color);
+}
+
+
