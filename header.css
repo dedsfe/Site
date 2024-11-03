@@ -1,0 +1,50 @@
+.header{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+
+  max-width: 1200px;
+  max-height: 800px;
+
+  gap: 30px;
+  margin: 30px;
+  padding: 30px;
+
+  overflow: hidden;
+}
+
+.header-image{
+  display: flex;
+  width: 50%;
+  border-radius: 15px;
+}
+
+.header-image img{
+  object-fit: cover;
+}
+
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;  
+}
+
+.header-content h1{
+  font: var(--text-lg);
+}
+
+.more{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 35%;
+
+}
+
+.more img {
+  height: 15px;
+  width: 15px;
+}
+
