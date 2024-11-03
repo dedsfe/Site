@@ -1,0 +1,13 @@
+.announcement{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  border-bottom: 2px solid rgb(36, 36, 36);
+
+  background-color: var(--second-color);
+  width: 100%;
+  height: 45px;
+  
+}
+

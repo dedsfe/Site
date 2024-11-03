@@ -4,25 +4,18 @@
   align-items: center;
   justify-items: center;
   text-align: center;
+
+  background-color: var(--background-color);
+
+  position: fixed;
+  top: 45px;
   font: var(--text-sm);
+
   max-width: 1200px;
   width: 100%;
-  margin: 15px;
+  padding: 15px;
 }
 
-a{
-  color: var(--third-color);
-  text-decoration: none;
-}
-
-a{
-  color: var(--third-color);
-}
-
-a:hover{
-  transition-duration: 0.4s;
-  color: var(--transparency-color);
-}
 
 .nav-content{
   display: flex;

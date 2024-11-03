@@ -1,5 +1,7 @@
 @import url(navbar.css);
 @import url(header.css);
+@import url(section-2.css);
+@import url(announcement.css);
 
 *{
   margin: 0;
@@ -9,7 +11,7 @@
 
 :root{
   --brand-color: white;
-  --second-color: black;
+  --second-color: black ;
   --third-color: rgb(199, 199, 199);
   --transparency-color: rgba(255, 255, 255, 0.336);
   --background-color:rgb(17, 17, 17);
@@ -68,6 +70,18 @@ p{
 .button2:hover{
   cursor: pointer;
   background-color: var(--third-color);
+}
+
+
+a{
+  color: var(--third-color);
+  text-decoration: none;
+}
+
+
+a:hover{
+  transition-duration: 0.4s;
+  color: var(--transparency-color);
 }
 
 
